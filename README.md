@@ -27,7 +27,16 @@ Make sure to set up your virtual environment accordingly to ensure compatibility
 ### Data Preparation
 1. Download WSIs from TCGA
 2. Use the CLAM framework to extract features at 10x resolution
-3. Organise 
+3. Organise the extracted .pt feature files as follows:
+
+ROOT_DIR/
+├── ${TCGA_dataset}_${feature_extractor}_features/
+│   ├── patient_001.pt
+│   ├── patient_002.pt
+│   ├── patient_003.pt
+│   ├── ...
+
+
 
 ## Acknowledgements
 
