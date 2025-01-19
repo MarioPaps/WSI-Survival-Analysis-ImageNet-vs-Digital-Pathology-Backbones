@@ -20,6 +20,15 @@ The most notable dependencies for this project include:
 - `torchvision` 0.15.2
 - `torchaudio` 2.0.2
 -  `scikit-survival` 0.22.2   
-Make sure to set up your virtual environment accordingly to ensure compatibility with the specified versions. A list of all dependencies can be found in the requirements.txt file. 
+Make sure to set up your virtual environment accordingly to ensure compatibility with the specified versions. A list of all dependencies can be found in the requirements.txt file.
+
+## Acknowledgements
+
+Many thanks to the authors of  [CLAM](https://github.com/mahmoodlab/CLAM) and [MambaMIL](https://github.com/isyangshu/MambaMIL) for making their codebase open-source and accessible to other researchers.
+
+## License & Citation
+
+The work can be cited once it passess peer-review. 
+
 
 
