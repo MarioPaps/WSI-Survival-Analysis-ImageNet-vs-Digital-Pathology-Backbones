@@ -8,8 +8,6 @@ Furthermore, deploying an ensemble of digital pathology foundation models yields
 
 ## Installation and Virtual Environment Information
 
-## Installation and Virtual Environment Information
-
 This project is implemented using PyTorch and requires a Python virtual environment with the following specifications:
 
 - **Python Version**: 3.10
