@@ -29,12 +29,16 @@ Make sure to set up your virtual environment accordingly to ensure compatibility
 2. Use the CLAM framework to extract features at 10x resolution
 3. Organise the extracted .pt feature files as follows:
 
+```bash
 ROOT_DIR/
-├── ${TCGA_dataset}_${feature_extractor}_features/
-│   ├── patient_001.pt
-│   ├── patient_002.pt
-│   ├── patient_003.pt
-│   ├── ...
+    └──${TCGA_dataset}_${feature_extractor}_features/
+            ├── slide_1.pt
+            ├── slide_2.pt
+            └── ...
+```
+
+### Training Code
+
 
 
 
