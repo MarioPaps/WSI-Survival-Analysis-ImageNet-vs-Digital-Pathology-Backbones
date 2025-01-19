@@ -19,9 +19,9 @@ This project is implemented using PyTorch and requires a Python virtual environm
 The most notable dependencies for this project include:
 
 - `torch` 2.0.1
-- `torchvision` 2.2.0
-- `torchaudio` 2.2.0
-
-Make sure to set up your virtual environment accordingly to ensure compatibility with the specified versions.
+- `torchvision` 0.15.2
+- `torchaudio` 2.0.2
+-  `scikit-survival` 0.22.2   
+Make sure to set up your virtual environment accordingly to ensure compatibility with the specified versions. A list of all dependencies can be found in the requirements.txt file. 
 
 
