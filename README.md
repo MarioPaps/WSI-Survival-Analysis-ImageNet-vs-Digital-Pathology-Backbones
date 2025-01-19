@@ -12,7 +12,7 @@ Furthermore, deploying an ensemble of digital pathology foundation models yields
 
 This project is implemented using PyTorch and requires a Python virtual environment with the following specifications:
 
-- **Python Version**: 3.10.0
+- **Python Version**: 3.10
 - **CUDA Version**: 11.8 (for GPU support)
 
 ### Key Dependencies
