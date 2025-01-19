@@ -22,6 +22,13 @@ The most notable dependencies for this project include:
 -  `scikit-survival` 0.22.2   
 Make sure to set up your virtual environment accordingly to ensure compatibility with the specified versions. A list of all dependencies can be found in the requirements.txt file.
 
+## Code Execution
+
+### Data Preparation
+1. Download WSIs from TCGA
+2. Use the CLAM framework to extract features at 10x resolution
+3. Organise 
+
 ## Acknowledgements
 
 Many thanks to the authors of  [CLAM](https://github.com/mahmoodlab/CLAM) and [MambaMIL](https://github.com/isyangshu/MambaMIL) for making their codebase open-source and accessible to other researchers.
