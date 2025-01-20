@@ -75,7 +75,7 @@ export seed=1
 # Construct the dynamic experiment code
 export exp_code="${cancer_type}_${backbone}_${model_type}_dropout${dropout}_lr${lr}_opt${opt}_reg${reg}_$lreg{lambda_reg}_instloss${inst_loss}_patience${patience_epochs}_s${seed}"
 
-Run training
+# Run training
 
 python blca_main_survival.py \
     --early_stopping \
