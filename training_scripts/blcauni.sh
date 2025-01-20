@@ -1,16 +1,3 @@
-#!/bin/bash
-#PBS -l select=1:ncpus=4:mem=64gb:ngpus=1
-#PBS -lwalltime=02:10:00
-
-cd $PBS_O_WORKDIR
-cd ..
-
-source $HOME/anaconda3/bin/activate
-source activate mambamil
-
-## Verify install:
-python -c "import torch;print(torch.cuda.is_available())"
-
 # Setting the hyperparameters
 export backbone='uni_v1'
 export model_type='mean_mil'
@@ -35,11 +22,13 @@ export patch_size=224
 export preloading='no'
 export in_dim=1024
 export inst_loss='None'
+export seed=1
 
 
 # Construct the dynamic experiment code
-export exp_code="${cancer_type}_${backbone}_${model_type}_dropout${dropout}_lr${lr}_opt${opt}_reg${reg}_$lreg{lambda_reg}_instloss${inst_loss}_patience${patience_epochs}"
-echo $exp_code
+export exp_code="${cancer_type}_${backbone}_${model_type}_dropout${dropout}_lr${lr}_opt${opt}_reg${reg}_$lreg{lambda_reg}_instloss${inst_loss}_patience${patience_epochs}_s${seed}"
+
+
 #Run training
 
 python blca_main_survival.py \
@@ -71,7 +60,6 @@ python blca_main_survival.py \
     --in_dim $in_dim \
     --k_fold True \
     --inst_loss $inst_loss\
-    --mambamil_rate 5 \
-    --mambamil_layer 2 \
-    --mambamil_type='SRMamba'
+    --seed $seed
+    
 
