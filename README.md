@@ -39,8 +39,10 @@ ROOT_DIR/
 
 ### Training Code
 
+- `blca_main_survival.py` is for training with the BLCA cohort
+- `brca_main_survival.py` is for training with the BRCA cohort
 
-
+For example, if we want to train using ResNet50 as a backbone a MeanMIL model for the BLCA cohort, we can run the following bash script: 
 
 ## Acknowledgements
 
