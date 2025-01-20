@@ -1,6 +1,6 @@
 # Setting the hyperparameters
 export backbone='uni_v1'
-export model_type='mean_mil'
+export model_type=mean_mi'
 export cancer_type=BLCA
 echo $model_type
 export dropout=0.25
