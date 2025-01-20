@@ -109,7 +109,7 @@ python blca_main_survival.py \
     --seed $seed
 ```
 
-More examples can be found in the training_scripts folder. 
+More examples for the BLCA cohort can be found in the training_scripts folder. By modifying the disease name and splits directory, an equivalent script can be obtained for other cohorts, such as BRCA. 
 
 
 
