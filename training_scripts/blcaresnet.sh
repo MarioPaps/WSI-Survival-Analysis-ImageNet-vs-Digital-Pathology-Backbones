@@ -1,6 +1,6 @@
 # Setting the hyperparameters
 export backbone='resnet50_trunc'   
-export model_type='mean_mil'
+export model_type=mean_mil
 export cancer_type=BLCA
 export dropout=0.25
 export lr=1e-4
