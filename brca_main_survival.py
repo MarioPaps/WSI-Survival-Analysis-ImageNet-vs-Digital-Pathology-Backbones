@@ -254,9 +254,7 @@ if 'survival' in args.task:
     print('study_dir:', study_dir)
     print('csv_path:', 'dataset_csv/%s_processed.csv' % combined_study)
     print('data_dir:', os.path.join(args.data_root_dir, study_dir))
-    csv_name= 'dataset_csv/BRCA_processed.csv'
     csv_name= 'dataset_csv/BRCA_df.csv'
-    csv_name= 'dataset_csv/gragra.csv'
     print('Arguments in the function')
     print('csv_name:', csv_name)
     print('mode:', args.mode)
